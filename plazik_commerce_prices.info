@@ -1,0 +1,8 @@
+name = Plazik Commerce Prices
+description = Alter Drupal Commerce Prices
+package = Custom
+core = 7.x
+version = 7.x-1.x
+
+;files[] =
+dependencies[] = commerce_price
