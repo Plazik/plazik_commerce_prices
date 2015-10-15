@@ -13,6 +13,7 @@ function plazik_commerce_prices_commerce_currency_info_alter(&$currencies, $lang
   $currencies['USD']['format_callback'] = 'plazik_commerce_prices_commerce_currency_format';
   $currencies['AUD']['format_callback'] = 'plazik_commerce_prices_commerce_currency_format';
   $currencies['GBP']['format_callback'] = 'plazik_commerce_prices_commerce_currency_format';
+  $currencies['EUR']['format_callback'] = 'plazik_commerce_prices_commerce_currency_format';
 }
 
 /**
